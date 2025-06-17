@@ -1,0 +1,3 @@
+Màu hồng : #ed3041
+Màu xám: #333
+Font-family: sans-serif

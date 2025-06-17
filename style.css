@@ -1,0 +1,239 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 8px; /* Bo góc nhẹ cho card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+    Font-family: sans-serif;
+    
+}
+.tieude {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+.promo-box{
+    display: flex;
+    align-items: center;
+}
+.promo-box img {
+    border-radius: 8px 0 0 8px; 
+}
+.promo-text{
+    font-size: 16px;
+    color: pink;
+}
+.thanh_danh_muc{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ed3041;
+    align-items: center;
+    height: 50px;
+}
+.dm_trai{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 8px;
+}
+.dm_phai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.dm_phai .gio_hang{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.separator {
+    width: 0.5px;
+    height: 40px;
+    background-color: gray;
+    
+}
+img{
+    width: 40px;
+    margin: 0 8px;
+}
+.tieu_de {
+    width: 550px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dashed #ed3041;
+}
+.tieu_de h1{
+    color: #ed3041; 
+    text-align: center;
+}
+.ds_item {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.ds_item a{
+    color: black;
+}
+.dssp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+.item {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius:8px;
+    text-align: center;
+    margin: auto 10px;
+}
+.item img {
+    width: 90%;
+    height: auto;
+}
+.item .ten {
+    color: #ed3041;
+}
+.item .gia {
+    font-weight: bold;
+}
+.item .donvi {
+    text-decoration: underline;
+    font-size: 13px;
+}
+.xemthem {
+    background-color: #ed3041;
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dat_hang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.dat_hang .dat_hang_anh img{
+    width: 500px;
+    height: auto;
+    margin-right: 50px;
+}
+.dat_hang_ngay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ed3041;
+    border-radius: 8px;
+    width: 170px;
+    height: 30px;
+    
+}
+.dat_hang_ngay img{
+    width: 30px;
+    margin-left: 5px;
+}
+.dat_hang_ngay span{
+    color: white;
+    margin-right: 6px;
+}
+.tin_tuc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border : 2px solid gray;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.chan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #ed3041;
+}
+.chan-content{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.chan-content img{
+    width: 70px;
+    height: 60px;
+}
+.chan-content span{
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.footer-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 500px;
+}
+.footer-content .anh1{
+    width: 40%;
+}
+.footer-content p {
+    margin-left: 10px;
+    font-size: 12px;
+    margin: 8px;
+    border-bottom: .5px solid #dddddd;
+}
+.gachngang{
+    width: 40px;
+    height: 2px;
+    background-color: gray;
+}
+.canh{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.footer_i4 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer_i4 img {
+    width: 30px;
+}
+.footer_i5 {
+    margin-top: 20px;
+}
+.footer_i5 img {
+    width: 100px;
+    margin-left: 20px;
+}
+
